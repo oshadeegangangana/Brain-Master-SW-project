@@ -11,9 +11,9 @@ class About extends Component {
                             <div className="about-title clearfix">
                                 <h1>About <span>Brain Master</span></h1>
                                 <h3>Where ideas born... </h3>
-                                <p className="about-paddingB">Technology services are professional services designed to facilitate the use of technology by enterprises and end users. Technology services provide specialized technology-oriented solutions by combining the processes and functions of software, hardware, networks, telecommunications, and electronics.
-                                     </p>
-                                <p>“Whoever you are .. we have the solution you need ..’’</p>
+                                <p className="about-paddingB"><center>Technology services are professional services designed to facilitate the use of technology by enterprises and end users. Technology services provide specialized technology-oriented solutions by combining the processes and functions of software, hardware, networks, telecommunications, and electronics.
+                                </center></p>
+                                <p><center>“Whoever you are .. we have the solution you need ..’’</center></p>
                                 <div className="about-icons">
                                     <ul>
                                         <li><a href="https://www.facebook.com/" target="_blank"><i id="social-fb" className="fa fa-facebook-square fa-3x social" /></a> </li>

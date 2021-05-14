@@ -623,9 +623,10 @@ class DashboardLayout extends Component {
                                     {/* profile info & task notification */}
                                     <div className="col-md-6 col-sm-4 clearfix">
                                         <ul className="notification-area pull-left">
+                                        <p className='display-inline'>{ new Date().toLocaleDateString()}</p>
                                             <Clock
                                                 ticking={true}
-                                                format={"hh:mm:ss A - dddd, MMMM Mo, YYYY"}
+                                                format={'HH:mm:ss'}
                                                 style={{fontSize: "1.5em"}}
                                             />
                                         </ul>

@@ -1,1 +1,6 @@
 body{overflow:hidden;overflow-y:auto;}
+
+.sclbar{
+    overflow-x: auto;
+
+}

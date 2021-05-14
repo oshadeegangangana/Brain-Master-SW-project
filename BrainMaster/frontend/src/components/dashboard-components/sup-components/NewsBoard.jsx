@@ -38,7 +38,7 @@ class NewsBoard extends Component {
     render() {
         let {news_list} = this.state;
         return (
-            <div className="card bg-warning text-dark">
+            <div className="card bg-warning text-dark h-25 sclbar" >
                 <div className="card-header text-dark text-center"><b>News Board</b></div>
                 <div className="card-body text-dark">
                     {news_list.map((news, index) => (

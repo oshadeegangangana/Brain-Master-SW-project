@@ -1,7 +1,5 @@
 const Validator = require("fastest-validator");
 const models = require("../models");
-const Sequelize = require("sequelize");
-const Op = Sequelize.Op;
 
 function save(req, res) {
     const user = {

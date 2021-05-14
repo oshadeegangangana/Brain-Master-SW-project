@@ -110,7 +110,7 @@ class SignUp extends Component {
                             <div className="login-box ptb--100">
                                 <form
                                     autoComplete="off"
-                                    onSubmit={(e) => {
+                                    onSubmit={(e) => { 
                                         this.register(e);
                                     }}
                                 >
@@ -178,7 +178,7 @@ class SignUp extends Component {
                                                     this.setState({mobile_no: event.target.value});
                                                 }}
                                                 value={this.state.mobile_no}
-                                                pattern="[0-9]{10}" title="Enter 10 digits valid mobile number"
+                                                pattern="[0-9]{10}" title="Enter 10 digits valid mobile number starts with 0"
                                             />
                                             <i className="ti-mobile"/>
                                             <div className="text-danger"/>
@@ -194,6 +194,7 @@ class SignUp extends Component {
                                                     this.setState({age: event.target.value});
                                                 }}
                                                 value={this.state.age}
+                                                pattern="[0-9]{2}"
                                                 required
                                             />
                                             <i className="ti-calendar"/>

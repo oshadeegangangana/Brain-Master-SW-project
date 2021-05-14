@@ -86,7 +86,7 @@ class QuestionsBoard extends Component {
         let {questions_list} = this.state;
         return (
             <div className="card text-white bg-primary">
-                <div className="card-header text-center"><b>User's asked Questions </b></div>
+                <div className="card-header text-center"><b>Users' asked Questions </b></div>
                 <div className="card-body text-dark">
                     {
                         questions_list.map((question, index) => {

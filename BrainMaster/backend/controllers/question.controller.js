@@ -64,7 +64,7 @@ function index(req, res) {
         order: [
             ['createdAt', 'DESC'],
         ],
-        limit: 2,
+        limit: 5,
 
     })
         .then((result) => {

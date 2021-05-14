@@ -8,7 +8,7 @@ class Footer extends Component {
                     <p>
                         © Copyright 2021 <a href="#">Brain Master App</a>. All right
                         reserved. Developed by <a>Beginners Group 03</a>.
-                        {/*Change Accordingly*/}
+                        
                     </p>
                 </div>
             </footer>
